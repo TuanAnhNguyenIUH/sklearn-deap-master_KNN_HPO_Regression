@@ -133,7 +133,7 @@ def _evalFunction(
                 parameters=parameters,
                 fit_params=fit_params,
                 error_score=error_score,
-                score_params=score_params,
+                #score_params=score_params,
             )["test_scores"]
 
             if iid:
